@@ -15,4 +15,18 @@ function getFormattedDate() {
 console.log(getFormattedDate(new Date()));
 // this show the date in the format example: Thursday, September 17, 2020 in en-US zone time
 
-//Create a variable fullName and store your full name as a string. Display the length of your name in the console.
+
+//Create a variable fullName and store your full name as a string. Display the length of your name in the console
+
+let fullName + "Adesh Shah";
+
+console.log(fullName.length - 1);
+
+
+// write a function square that takes a number as an argument and return its square.
+
+let num = 5
+function square(num) {
+    return Math.pow(num, 2);
+}
+console.log(fullName.length - 1);
