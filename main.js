@@ -30,3 +30,15 @@ function square(num) {
     return Math.pow(num, 2);
 }
 console.log(fullName.length - 1);
+
+//write a funtion calculate BMI that takes a person's weight (in kilograms) and height (in meters) as arguments and returns their BMI (Body Mass Index).The formula for BMI is weight / (height * height).
+
+let height = 1.91;
+let weight = 93;
+
+function calculateBMI(weight, height) {
+    let BMI = weight/Math.pow(height, 2);
+    return Math.ceil(BMI);
+}
+
+console.logcalculateBMI(weight, height);
